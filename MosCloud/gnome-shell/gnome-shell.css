@@ -17,7 +17,7 @@
  * Inc., 51 Franklin St - Fifth Floor, Boston, MA 02110-1301 USA.
  */
 stage {
-  font-family: SFNS Display, Cantarell, Sans-Serif;
+  font-family: Ubuntu, SFNS Display, Cantarell, Sans-Serif;
   font-size: 10pt;
   color: #D3DAE3; }
 
@@ -407,7 +407,7 @@ StScrollBar {
     .popup-menu .popup-menu-item:rtl {
       padding: 0.4em 0em 0.4em 3em; }
     .popup-menu .popup-menu-item:checked {
-      font-weight: normal;
+      font-weight: bold;
       background: none;
       box-shadow: none;
       border-image: url("dark-assets/menu/submenu-open.svg") 9 9 9 9; }
@@ -603,8 +603,8 @@ StScrollBar {
   #panel .panel-button {
     -natural-hpadding: 10px;
     -minimum-hpadding: 6px;
-    font-weight: normal;
-    color: #ffffff;
+    font-weight: bold;
+    color: #ccc;
     transition-duration: 100ms;
     border-bottom-width: 1px;
     border-color: transparent; }
