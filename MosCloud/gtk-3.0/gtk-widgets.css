@@ -2276,7 +2276,8 @@ GtkColorButton.button {
 }
 
 .header-bar .title {
-    font-weight: bold;
+    font: bold;
+    font-size: 100%;
     padding: 1px 12px 1px 12px;
 	color: @theme_fg_color;
     
@@ -3211,7 +3212,6 @@ GtkCalendar.header .path-bar .button.titlebutton GtkImage {
   border: none;
 }
 
-}
 .tooltip * {
   padding: 4px 0;
   border-radius: 2px;
@@ -4231,10 +4231,12 @@ GtkBubbleWindow .toolbar {
 }
 
 .titlebar .title {
-    color: @titlebar_focused_text_color;
+    font-size: 100%;
+	color: @titlebar_focused_text_color;
 }
 
 .titlebar .title:backdrop {
+    font-size: 100%;
     color: @titlebar_unfocused_text_color;
 }
 
